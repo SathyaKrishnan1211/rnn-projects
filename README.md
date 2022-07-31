@@ -12,7 +12,10 @@ but it will take hours for the model to train. You can find the trained model in
 ## Description
 Bach music model aims at generating music similar to the music composed by *Johann Sebastian Bach*. <br>
 The model successfully generates the intended music but you will find it repeating the same notes during the last 5-10 seconds, because of the nature of 
-Recurrent Neural Networks. You can find the trained model in **models/bach_model.h5**.
+Recurrent Neural Networks. <br>
+Play the chords generated using ```play_chords()``` function.<br>
+The notebook has been adapted from *Aurelien Geron's* [handson-ml2 repository](https://github.com/ageron/handson-ml2)
+You can find the trained model in **models/bach_model.h5**.
 > Snapshots of the model used to generate Bach's type music
 ![Screenshot from 2022-07-31 16-40-46](https://user-images.githubusercontent.com/86184014/182023507-568453c0-1c4d-49bc-b0ca-a4a2f4366d64.png)
 ![Screenshot from 2022-07-31 16-41-16](https://user-images.githubusercontent.com/86184014/182023514-0efa743c-ae53-48e2-b51a-1e045a50963a.png)
